@@ -6,16 +6,15 @@
 </head>
 <body>
 
-  <div>
-    <a href="index.html">Home</a>
-    <a href="tags.html">HTML Tags</a>
-    <a href="moby_dick.html">Moby Dick</a>
+  <div style="text-align: right; ">
+    <a href="index.html" style= "text-decoration-line: none; color: blue " = >Home</a>
+    <a href="tags.html" style="margin: 0 0 0 10px; text-decoration-line: none; color: blue">HTML Tags</a>
+    <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration-line: none; color: blue">Moby Dick</a>
   </div>
 
-  <!-- much here to be styled, will do so in last section -->
-  <header>
-    <h1>A Softcover Book Report</h1>
-    <h2>Moby-Dick (or, The Whale)</h2>
+  <header style="text-align: center; margin: 0 0 80px;">
+    <h1 style="text-align: center;">A Softcover Book Report</h1>
+    <h2 style="text-align: center;">Moby-Dick (or, The Whale)</h2>
   </header>
 
   <div>
@@ -35,83 +34,95 @@
       <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg">
         <img src="images/sperm_whales.jpg" alt= "Sperm Whale" >
       </a>
+      <!-- #fafafaf adds a light grey background -->
+      <div style="width: 500px; margin: 20px auto; padding: 30px;
+      background-color: #fafafa;">
+      <h3>Moby-Dick: A classic tale of the sea</h3>
 
-      <div>
+      <a href="https://www.softcover.io/read/6070fb03/moby-dick"
+      target="_blank">
+      <!-- Resizing the image using height affects the image display
+      still need to download the entire image from the web server
+      !!!!!restrict this method to minor resizings!!!!!
+      use EITHER height OR width, as using both can result in a
+      strange image
+      FLOAT: LEFT treats the image as text; text surrounds it
+      use MARGIN to set a space: top, right, bottom, left
+      -clockwise around the item
+    -->
+    <img src="images/moby_dick.png" alt="Moby Dick" height="200px"
+    style="display: block; margin: 0 auto;">
+  </a>
 
-        <h3>Moby-Dick: A classic tale of the sea</h3>
+  <p>
+    <a href="https://www.softcover.io/read/6070fb03/moby-dick"
+    target="_blank">
+    <em>Moby-Dick</em></a>
+    by Herman Melville begins with these immortal words:
+  </p>
 
-        <a href="https://www.softcover.io/read/6070fb03/moby-dick"
-        target="_blank">
-        <img src="images/moby_dick.png" alt="Moby Dick">
-      </a>
+  <blockquote style = "font-style: italic; font-size: 20px;">
+    <p>
+      <span style="font-style: normal; font-size: 24px; font-weight: bold;
+      color: #a2f;" >Call me Ishmael.</span>
+      Some years ago–never mind how long
+      precisely–having little or no money in my purse, and nothing
+      particular to interest me on shore, I thought I would sail about a
+      little and see the watery part of the world. It is a way I have of
+      driving off the spleen and regulating the circulation.
+    </p>
+  </blockquote>
 
-      <p>
-        <a href="https://www.softcover.io/read/6070fb03/moby-dick"
-        target="_blank">
-        <em>Moby-Dick</em></a>
-        by Herman Melville begins with these immortal words:
-      </p>
+  <p>
+    After driving off his spleen (which <em>can't</em> be good for you),
+    Ishmael then goes on in much the same vein for approximately one
+    jillion pages. The only thing bigger than Moby Dick (who—<em>spoiler
+      alert!</em>—is a giant white whale) is the book itself.
+    </p>
+  </div>
 
-      <blockquote>
-        <p>
-          <span>Call me Ishmael.</span> Some years ago–never mind how long
-          precisely–having little or no money in my purse, and nothing
-          particular to interest me on shore, I thought I would sail about a
-          little and see the watery part of the world. It is a way I have of
-          driving off the spleen and regulating the circulation.
-        </p>
-      </blockquote>
+  <h4>Our top 3 favorite things about Moby Dick</h4>
 
-      <p>
-        After driving off his spleen (which <em>can't</em> be good for you),
-        Ishmael then goes on in much the same vein for approximately one
-        jillion pages. The only thing bigger than Moby Dick (who—<em>spoiler
-          alert!</em>—is a giant white whale) is the book itself.
-        </p>
-      </div>
+  <ol>
+    <li>Vengeful whale</li>
+    <li>Salty sailors</li>
+    <li>The names "Queequeg" and "Starbuck"</li>
+  </ol>
+  <h4>Other things about Moby Dick</h4>
 
-      <h4>Our top 3 favorite things about Moby Dick</h4>
+  <ul>
+    <li>
+      Chapter after chapter (after chapter) of meticulous detail about whaling
+    </li>
+    <li>
+      The story pretty much
+      <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
+      target="_blank">happened in real life</a>
+    </li>
+    <li>Mad sea captains are fun</li>
+  </ul>
+  <h4>My top 3 favorite things about Moby Dick</h4>
 
-      <ol>
-        <li>Vengeful whale</li>
-        <li>Salty sailors</li>
-        <li>The names "Queequeg" and "Starbuck"</li>
-      </ol>
-      <h4>Other things about Moby Dick</h4>
+  <ol>
+    <li>Vengeful whale</li>
+    <li>Salty sailors</li>
+    <li>The names "Queequeg" and "Starbuck"</li>
+  </ol>
 
-      <ul>
-        <li>
-          Chapter after chapter (after chapter) of meticulous detail about whaling
-        </li>
-        <li>
-          The story pretty much
-          <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
-          target="_blank">happened in real life</a>
-        </li>
-        <li>Mad sea captains are fun</li>
-      </ul>
-      <h4>My top 3 favorite things about Moby Dick</h4>
+  <h4>Other things about Moby Dick</h4>
 
-      <ol>
-        <li>Vengeful whale</li>
-        <li>Salty sailors</li>
-        <li>The names "Queequeg" and "Starbuck"</li>
-      </ol>
-
-      <h4>Other things about Moby Dick</h4>
-
-      <ul>
-        <li>
-          Chapter after chapter (after chapter) of meticulous detail about
-          whaling
-        </li>
-        <li>
-          The story pretty much
-          <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
-             target="_blank">happened in real life</a>
-        </li>
-        <li>Mad sea captains are fun</li>
-      </ul>
-    </div>
-  </body>
+  <ul>
+    <li>
+      Chapter after chapter (after chapter) of meticulous detail about
+      whaling
+    </li>
+    <li>
+      The story pretty much
+      <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
+      target="_blank">happened in real life</a>
+    </li>
+    <li>Mad sea captains are fun</li>
+  </ul>
+</div>
+</body>
 </html>
